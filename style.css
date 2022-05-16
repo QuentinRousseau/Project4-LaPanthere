@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: #575757;
+    color: #000000;
 }
 
 .d-bloc button:hover {
@@ -372,7 +372,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #000000;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
