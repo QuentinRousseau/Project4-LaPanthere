@@ -106,7 +106,7 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input
                     aria-label="name"
                     id="name"
@@ -115,7 +115,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     aria-label="mail"
                     id="email"
@@ -125,7 +125,9 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504">
+                    Comment nous avez-vous connu ?
+                  </label>
                   <input
                     aria-label="how-did-you-know-us"
                     class="form-control"
@@ -135,7 +137,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -148,7 +150,7 @@
                   ></textarea>
                 </div>
                 <button
-                  aria-label="submit"
+                  aria-label="envoyer"
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                   type="submit"
                 >
